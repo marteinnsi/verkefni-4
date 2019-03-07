@@ -1,0 +1,128 @@
+/* resets */
+* {
+    margin:0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0
+} 
+
+/* style */
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+blockquote {
+    padding: .5em;
+    background-color: rgba(255,255,255,0.5);
+}
+
+header {
+    display: block;
+    padding: 4em 0 2em 0;
+    color: white;
+}
+
+header a {
+    color:white;
+}
+
+.main {
+    padding: 5em;
+}
+
+footer {
+    padding: 3em;
+    display: flex;
+    flex-basis: auto;
+}
+
+footer nav {
+    flex: 1;
+}
+
+dt {
+    font-weight: 600;
+}
+
+dd { 
+    margin-left: .7em;
+}
+
+.copyright {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 1.4em;
+}
+
+/* font classes */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p,a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-display{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+/* color classes */
+.bluebg {
+    background-color: dodgerblue;
+}
+
+.beigebg {
+    background-color: beige;
+}
+
+.topnav {
+    padding-top: 1em;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 1em;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.story {
+    padding: 1em 0;
+}
+
+/* layouting */
+
+.fixed-topright {
+    position: absolute;
+    right: 19%;
+    top: 1.5em;
+    color:#333;
+}
+
+footer {
+    display: flex;
+}
+
+footer nav {
+    flex: 1;
+}
+
+.up-btn {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    display: block;
+    padding: 1em;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+
