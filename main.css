@@ -9,6 +9,9 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 /* style */
+ul, dl {
+    list-style: none;
+}
 
 .container {
     max-width: 70%;
@@ -31,7 +34,7 @@ header a {
 }
 
 .main {
-    padding: 5em;
+    padding: 8em 5em;
 }
 
 footer {
@@ -79,6 +82,10 @@ p,a {
     background-color: dodgerblue;
 }
 
+.bluebg-gradient {
+    background: linear-gradient(rgb(0, 89, 255),dodgerblue)
+}
+
 .beigebg {
     background-color: beige;
 }
@@ -121,8 +128,15 @@ footer nav {
     right: 1em;
     display: block;
     padding: 1em;
-    background-color: blue;
+    background-color: dodgerblue;
     color: white;
+    font-weight: 800;
+    text-decoration: none;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
     border-radius: 50%;
+    border: thin solid black;
+    text-align: center;
 }
 
